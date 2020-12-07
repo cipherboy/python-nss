@@ -7252,7 +7252,7 @@ PyRSAPublicKey_init(PyRSAPublicKey *self, PyObject *args, PyObject *kwds)
 
 static PyTypeObject PyRSAPublicKeyType = {
     PyVarObject_HEAD_INIT(NULL, 0)
-    "nss.nss.PyRSAPublicKey",			/* tp_name */
+    "nss.nss.RSAPublicKey",			/* tp_name */
     sizeof(PyRSAPublicKey),			/* tp_basicsize */
     0,						/* tp_itemsize */
     (destructor)PyRSAPublicKey_dealloc,		/* tp_dealloc */
@@ -7477,7 +7477,7 @@ PyDSAPublicKey_init(PyDSAPublicKey *self, PyObject *args, PyObject *kwds)
 
 static PyTypeObject PyDSAPublicKeyType = {
     PyVarObject_HEAD_INIT(NULL, 0)
-    "nss.nss.PyDSAPublicKey",			/* tp_name */
+    "nss.nss.DSAPublicKey",			/* tp_name */
     sizeof(PyDSAPublicKey),			/* tp_basicsize */
     0,						/* tp_itemsize */
     (destructor)PyDSAPublicKey_dealloc,		/* tp_dealloc */
