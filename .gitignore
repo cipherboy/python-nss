@@ -1,0 +1,4 @@
+*.patch
+/build/
+/pki/
+__pycache__/
